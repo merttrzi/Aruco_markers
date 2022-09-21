@@ -6,8 +6,7 @@ face_cascade = cv2.CascadeClassifier('cascade/data/haarcascade_frontalface_alt2.
 cap = cv2.VideoCapture("abc1.mp4")
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-# fourrc = cv2.VideoWriter_fourcc(*'XVID')
-# out = cv2.VideoWriter("fr_video.avi",fourrc,30,(width,height))
+
 
 while True:
     ret, frame = cap.read()
