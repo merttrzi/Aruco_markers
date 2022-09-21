@@ -1,12 +1,7 @@
 import cv2
 import numpy as np
 import face_recognition
-# import moviepy.editor as mp
 
-# clip = mp.VideoFileClip("abc.mp4")
-# clip_resized = clip.resize(height = 640)
-
-# clip_resized.write_videofile("abc1.mp4")
 
 
 cap = cv2.VideoCapture("abc1.mp4")
